@@ -1,6 +1,7 @@
 const Input = ({ weight, setWeight }) => {
   return (
     <input
+      id="input"
       type="number"
       step="1"
       value={weight}
